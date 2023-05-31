@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid black; */
+  width: 10rem;
+}
+.perfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background: #323232; */
+  border-radius: 50%;
+  width: 8vh;
+  padding: 5px 0 0 0;
+}
+
+.imagePerfil {
+  border-radius: 50%;
+  max-width: 4.5rem;
+  cursor: pointer;
+  /* border: 5px solid #323232; */
+}
+
+.perfilDesplegable {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 6%;
+  /* border: 3px solid black; */
+  width: 6.5rem;
+  height: 8rem;
+}
+
+.perfilDesplegable__lista {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  list-style: none;
+  z-index: 1;
+}
+
+.perfilname {
+  width: 100%;
+  font-size: 16px;
+}
+
+.buttonAccount {
+  display: flex;
+  border: none;
+  height: 5rem;
+  width: 20vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+  margin: 0.5em;
+  background: #323232;
+  color: white;
+  border: none;
+  border-top-left-radius: 30rem;
+  border-bottom-left-radius: 60rem;
+  border-top-right-radius: 60rem;
+  border-bottom-right-radius: 30rem;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.buttonAccount button:hover {
+  color: black;
+}
+
+.buttonAccount button:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+.buttonAccount button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}

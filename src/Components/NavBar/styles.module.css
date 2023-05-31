@@ -1,0 +1,14 @@
+.appBar {
+    background-color: #3A506B;
+}
+
+.postButton {
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 2px ridge white;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff
+}

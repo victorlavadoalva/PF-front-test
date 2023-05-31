@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.containerStore{
+    margin-left: 3%;
+    margin-top: 3%;
+    max-width: 80vh;
+}
+
+.store {
+    margin-right: -3vw;
+    margin-top: 5vh;
+    width: 20vw;
+    justify-self: center;
+}
+
+.containerCart {
+    padding-top: 8vh;
+    width: 20vw;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide en dos columnas de ancho igual */
+    grid-gap: 20px;
+    max-width: 70vw;
+}
+
+.confirmed {
+    color: green;
+}
+
+.card {
+    width: 80%; /* Ajusta el ancho de las tarjetas, dejando un espacio entre ellas
+    Otros estilos para las tarjetas */
+}
+
+.paginate {
+    margin: 35px;
+}
+
+.menu {
+    display: flex;
+    padding: 20px 30px;
+    flex-direction: column;
+    align-items: center;
+}

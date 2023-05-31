@@ -1,0 +1,12 @@
+.image {
+    max-width: fit-content;    
+}
+
+.detail {
+    padding: 30px 15rem;
+}
+
+.container {
+   margin-bottom: 8px;
+}
+

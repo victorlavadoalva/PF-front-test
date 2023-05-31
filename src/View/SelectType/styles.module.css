@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+    
+    border: 3px solid black;
+    height: 86.4vh;
+}
+
+.container ul {
+    list-style-type: none;
+    flex-direction:row;
+}

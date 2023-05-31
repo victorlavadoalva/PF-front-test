@@ -1,0 +1,55 @@
+.button{
+    align-items: center;
+    border: 2px solid #B20027;
+    color: white;
+    background-color: #b93d43;
+    border-radius: 2em;
+    width: 40%;
+    height: 70%;
+    margin-left: -1.5em;
+}
+.button:hover{
+    background-color: #aa1920;
+    border: 2px solid #80001c;
+    cursor: pointer;
+}
+
+.buttonUndo{
+    align-items: center;
+    border: 2px solid #446A61;
+    border-radius: 2em;
+    color: white;
+    background-color: #598F54;
+    width: 40%;
+    height: 70%;
+    margin-left: -1.5em;
+}
+.buttonUndo:hover{
+    background-color: #356b3d;
+    border: 2px solid #345331;
+    cursor: pointer;
+}
+
+.status{
+    color: #345331;
+    background-color: #B5F452;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 0.8em;
+}
+
+.statusBanned{
+    color: #80001c;
+    background-color: #D06E6B;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 0.8em;
+}
+
+.statusInactive{
+    color: #CE5905;
+    background-color: #fdb665;
+    padding: 5px;
+    font-weight: 500;
+    border-radius: 0.8em;
+}

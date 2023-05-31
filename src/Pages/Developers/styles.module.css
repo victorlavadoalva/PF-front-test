@@ -1,0 +1,18 @@
+.developers {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las cajas de los miembros */
+  }
+  
+  .member {
+    margin-bottom: 20px;
+    
+  }
+  
