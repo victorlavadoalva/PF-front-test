@@ -30,12 +30,14 @@
     "react-scripts": "^5.0.1",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
+    "serve": "^14.2.0",
     "styled-components": "^5.3.10",
     "web-vitals": "^2.1.4",
     "yup": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "dev": "react-scripts --openssl-legacy-provider start",
+    "start": "serve build -n -L -p $PORT",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
